@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <%= stylesheet_link_tag "dashboard/application", :media => "all" %>
+  <%= javascript_include_tag "dashboard/application" %>
+
+
+  <link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700%7COpen+Sans:400,700,300' rel='stylesheet' type='text/css'>
+
+
+  <title>CheckinTimer Dashboard</title>
+
+</head>
+
+<body class="body-dark-linen">
+
+
+<div class="all-wrapper">
+  <div class="row">
+    <%= render :partial => "layouts/dashboard/sidebar" %>
+    <div class="col-md-9">
+
+      <div class="content-wrapper">
+        <div class="content-inner content-inner-grey">
+
+          <!--Links-->
+          <div class="page-header page-header-dark-blue">
+            <div class="header-links hidden-xs">
+              <a href="#"><i class="icon-cog"></i> Settings</a>
+              <a href="#"><i class="icon-signout"></i> Logout</a>
+            </div>
+            <%= yield :page_header %>
+          </div>
+          <!--Breadcrumb-->
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Bread</a></li>
+            <li><a href="#">Crumbs</a></li>
+            <li class="active">Example</li>
+          </ol>
+
+
+          <div class="main-content">
+            <%= yield %>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+</html>
+<!-- Localized -->

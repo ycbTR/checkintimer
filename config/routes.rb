@@ -6,6 +6,10 @@ Checkintimer::Application.routes.draw do
   devise_for :users
 
   root :to => "home#index"
+  get "/dashboard", :to => "dashboard/base#index", :as => :dashboard
+  namespace :dashboard do
+
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
