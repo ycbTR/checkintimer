@@ -4,6 +4,8 @@ Checkintimer::Application.routes.draw do
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 
   devise_for :users
+  match "/callback/foursquare/push", :to => "callback#foursquare_push", :as => :foursquare_push_callback
+  match "/callback/foursquare", :to => "callback#foursquare", :as => :foursquare_callback
 
   root :to => "home#index"
   get "/dashboard", :to => "dashboard/base#index", :as => :dashboard

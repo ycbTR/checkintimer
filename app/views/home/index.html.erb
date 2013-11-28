@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Coming Soon Page" />
-  <meta name="keywords" content="coming soon, responsive" />
-  <meta name="author" content="ZTApps" />
+  <meta name="description" content="Coming Soon Page"/>
+  <meta name="keywords" content="coming soon, responsive"/>
+  <meta name="author" content="ZTApps"/>
   <title>CheckinTimer - Coming soon Page</title>
 
   <!-- Fonts -->
@@ -21,39 +21,45 @@
   <div class="container content">
     <div class="row">
       <div class="header-left-text">
-        <h5>CHECKINTIMER</h5>
+        <h5><a href="mailto:support@checkintimer.com">support@checkintimer.com</a></h5>
       </div>
       <div class="header-right-text">
-        <h5><a href="mailto:support@checkintimer.com">support@checkintimer.com</a></h5>
+        <%= link_to "<i class='icon-foursquare'> Foursquare ile giriş yap </i>".html_safe, foursquare_callback_path, :class => "btn btn-primary" %>
       </div>
     </div>
     <h1 id="main-text">SOMETHING AWESOME IS COMING</h1>
+
     <h3 id="second-text">You will never lose your mayorship again !</h3>
 
     <!-- Countdown start -->
     <div id="countdown_dashboard">
       <div class="dash weeks_dash">
         <span class="dash_title">weeks</span>
+
         <div class="digit">0</div>
         <div class="digit">0</div>
       </div>
       <div class="dash days_dash">
         <span class="dash_title">days</span>
+
         <div class="digit">0</div>
         <div class="digit">0</div>
       </div>
       <div class="dash hours_dash">
         <span class="dash_title">hours</span>
+
         <div class="digit">0</div>
         <div class="digit">0</div>
       </div>
       <div class="dash minutes_dash">
         <span class="dash_title">minutes</span>
+
         <div class="digit">0</div>
         <div class="digit">0</div>
       </div>
       <div class="dash seconds_dash">
         <span class="dash_title">seconds</span>
+
         <div class="digit">0</div>
         <div class="digit">0</div>
       </div>
@@ -76,18 +82,21 @@
         <!--[if lt IE 10]>
         <div class="ie-placeholder n-name">Name</div>
         <![endif]-->
-        <input id="n_name" name="name" type="text" placeholder="Name" />
+        <input id="n_name" name="name" type="text" placeholder="Name"/>
+
         <div id='n_name_error' class="error">Name missing</div>
       </div>
       <div class="col-lg-5">
         <!--[if lt IE 10]>
         <div class="ie-placeholder n-email">Email Address</div>
         <![endif]-->
-        <input id="n_email" name="email" type="text" placeholder="Email Address" />
+        <input id="n_email" name="email" type="text" placeholder="Email Address"/>
+
         <div id='n_email_error' class="error">Email Address Missing</div>
       </div>
       <div class="col-lg-3">
         <input id="subscribe_button" class="btn" type="submit" name="submit" value="NOTIFY ME">
+
         <div id='n_success' class="success">YOU HAVE SUBSCRIBED SUCCESSFULLY</div>
         <div id='n_fail' class="error">THIS EMAIL HAS ALREADY SUBSCRIBED!</div>
       </div>
@@ -107,22 +116,30 @@
     <div class="row">
       <div class="col-sm-6 col-lg-3 item">
         <i class="icon-location-arrow"></i>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in
+          magni animi pariatur sed.
         </p>
       </div>
       <div class="col-sm-6 col-lg-3 item">
         <i class="icon-inbox"></i>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in
+          magni animi pariatur sed.
         </p>
       </div>
       <div class="col-sm-6 col-lg-3 item">
         <i class="icon-fire"></i>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in
+          magni animi pariatur sed.
         </p>
       </div>
       <div class="col-sm-6 col-lg-3 item">
         <i class="icon-laptop"></i>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in
+          magni animi pariatur sed.
         </p>
       </div>
     </div>
@@ -141,32 +158,32 @@
     <ul class="social-icon-container">
       <li>
         <a href="http://facebook.com/" target="_blank">
-          <img src="/assets/social-icons/facebook.png" alt="" />
+          <img src="/assets/social-icons/facebook.png" alt=""/>
         </a>
       </li>
       <li>
         <a href="http://twitter.com/" target="_blank">
-          <img src="/assets/social-icons/twitter.png" alt="" />
+          <img src="/assets/social-icons/twitter.png" alt=""/>
         </a>
       </li>
       <li>
         <a href="http://youtube.com/" target="_blank">
-          <img src="/assets/social-icons/youtube.png" alt="" />
+          <img src="/assets/social-icons/youtube.png" alt=""/>
         </a>
       </li>
       <li>
         <a href="http://dribble.com/" target="_blank">
-          <img src="/assets/social-icons/dribbble.png" alt="" />
+          <img src="/assets/social-icons/dribbble.png" alt=""/>
         </a>
       </li>
       <li>
         <a href="http://vimeo.com/" target="_blank">
-          <img src="/assets/social-icons/vimeo.png" alt="" />
+          <img src="/assets/social-icons/vimeo.png" alt=""/>
         </a>
       </li>
       <li>
         <a href="#" target="_blank">
-          <img src="/assets/social-icons/google+.png" alt="" />
+          <img src="/assets/social-icons/google+.png" alt=""/>
         </a>
       </li>
       <!--
@@ -217,13 +234,14 @@
     <input id="view-map" type="checkbox" class="view-map-selector">
 
     <div id="view-address-btn">
-      <label for="view-map" class="btn" >VIEW ADDRESS</label>
+      <label for="view-map" class="btn">VIEW ADDRESS</label>
     </div>
 
     <div id="locate-overlay">
       <div class="div-1">
         <div>
           <h2>Locate Us</h2>
+
           <p>
             Studio 103<br>
             The Business Centre<br>
