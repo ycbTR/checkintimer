@@ -2,23 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a629ea7e-a7c2-41d6-bb01-06061798ae2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/callback_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/callback_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
     </list>
     <ignored path="checkintimer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385662897677" ignored="false" />
-    <file path="/user.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385677132142" ignored="false" />
+    <file path="/user.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385679982165" ignored="false" />
     <file path="/accounts_controller.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385663332935" ignored="false" />
     <file path="/routes.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385676871408" ignored="false" />
     <file path="/clock.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385677426418" ignored="false" />
     <file path="/checkin_schedule.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385678757262" ignored="false" />
     <file path="/20131128183748_create_checkin_schedules.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385664609485" ignored="false" />
     <file path="/Gemfile" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385665358363" ignored="false" />
-    <file path="/callback_controller.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385672429108" ignored="false" />
+    <file path="/callback_controller.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385680001034" ignored="false" />
     <file path="/checkin_controller.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385671211874" ignored="false" />
     <file path="/now.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385668607250" ignored="false" />
     <file path="/fragment.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385676608940" ignored="false" />
-    <file path="/index.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385675033015" ignored="false" />
+    <file path="/index.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385680230412" ignored="false" />
     <file path="/checkin.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385668832318" ignored="false" />
     <file path="/_sidebar.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385676886461" ignored="false" />
     <file path="/schedules.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385671971707" ignored="false" />
@@ -54,10 +55,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="callback_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="callback_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/callback_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="81" selection-start="707" selection-end="707" vertical-scroll-proportion="0.4520548">
+            <state line="17" column="22" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="83" selection-start="2503" selection-end="2503" vertical-scroll-proportion="0.5718475">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20131128140144_devise_create_users.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20131128140144_devise_create_users.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="105" selection-start="417" selection-end="417" vertical-scroll-proportion="-4.0384617">
               <folding />
             </state>
           </provider>
@@ -82,7 +110,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/dashboard.html.erb" />
         <option value="$PROJECT_DIR$/app/views/dashboard/checkin/index.html.erb" />
@@ -92,11 +119,12 @@
         <option value="$PROJECT_DIR$/app/views/dashboard/base/leaderboard.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/dashboard/base_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/dashboard/_sidebar.html.erb" />
         <option value="$PROJECT_DIR$/lib/clock.rb" />
         <option value="$PROJECT_DIR$/app/models/checkin_schedule.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/callback_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb" />
       </list>
     </option>
   </component>
@@ -662,23 +690,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin_schedules/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="162" selection-end="162" vertical-scroll-proportion="0.14851485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin_schedules/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="23" selection-start="157" selection-end="157" vertical-scroll-proportion="0.14851485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="20" selection-start="0" selection-end="2632" vertical-scroll-proportion="-17.5">
           <folding />
         </state>
       </provider>
@@ -700,13 +714,6 @@
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="55" selection-start="931" selection-end="931" vertical-scroll-proportion="0.7936508">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="38" selection-start="1602" selection-end="1602" vertical-scroll-proportion="0.6058201">
           <folding />
         </state>
       </provider>
@@ -767,9 +774,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131128140144_devise_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="105" selection-start="417" selection-end="417" vertical-scroll-proportion="-4.0384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/callback_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="81" selection-start="707" selection-end="707" vertical-scroll-proportion="0.4520548">
+        <state line="17" column="22" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="83" selection-start="2503" selection-end="2503" vertical-scroll-proportion="0.5718475">
           <folding />
         </state>
       </provider>
