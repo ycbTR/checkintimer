@@ -203,8 +203,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/vimeo.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/youtube-b101b995490bcbdf70ebdf2037a20741.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/youtube.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/checkin_schedule.rb" afterPath="$PROJECT_DIR$/app/models/checkin_schedule.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/clock.rb" afterPath="$PROJECT_DIR$/lib/clock.rb" />
     </list>
     <ignored path="checkintimer.iws" />
     <ignored path=".idea/workspace.xml" />
