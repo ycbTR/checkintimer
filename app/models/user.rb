@@ -30,6 +30,7 @@ class User < ActiveRecord::Base
                            :venue_name => response.venue.name,
                            :broadcast => checkin_schedule.broadcast, :shout => checkin_schedule.shout,
                            :checkin_schedule_id => checkin_schedule.id)
+      puts "Created checkin"
     rescue
       #Airbrake.notifiy
       false

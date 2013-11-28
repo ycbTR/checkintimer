@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a629ea7e-a7c2-41d6-bb01-06061798ae2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/checkin.rb" afterPath="$PROJECT_DIR$/app/models/checkin.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="checkintimer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385662897677" ignored="false" />
-    <file path="/user.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385679982165" ignored="false" />
+    <file path="/user.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385681036107" ignored="false" />
     <file path="/accounts_controller.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385663332935" ignored="false" />
     <file path="/routes.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385676871408" ignored="false" />
     <file path="/clock.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385677426418" ignored="false" />
@@ -33,6 +34,12 @@
     <file path="/application.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385675195085" ignored="false" />
     <file path="/dashboard.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385675357957" ignored="false" />
     <file path="/leaderboard.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385676765449" ignored="false" />
+    <file path="$PROJECT_DIR$/../instakolik/app/models/post.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385680903715" ignored="false" />
+    <file path="$PROJECT_DIR$/../instakolik/app/views/posts/show.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385680903715" ignored="false" />
+    <file path="$PROJECT_DIR$/../instakolik/app/controllers/application_controller.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385680903715" ignored="false" />
+    <file path="$PROJECT_DIR$/../instakolik/app/controllers/posts_controller.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385680903715" ignored="false" />
+    <file path="$PROJECT_DIR$/../instakolik/app/views/posts/index.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385680903715" ignored="false" />
+    <file path="$PROJECT_DIR$/../instakolik/config/routes.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385680903715" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,37 +62,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="callback_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/callback_controller.rb">
+      <file leaf-file-name="checkin_schedule.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/checkin_schedule.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
+            <state line="50" column="24" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="83" selection-start="2503" selection-end="2503" vertical-scroll-proportion="0.5718475">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20131128140144_devise_create_users.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20131128140144_devise_create_users.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="105" selection-start="417" selection-end="417" vertical-scroll-proportion="-4.0384617">
+            <state line="32" column="27" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.73015875">
               <folding />
             </state>
           </provider>
@@ -109,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/_form.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/dashboard.html.erb" />
         <option value="$PROJECT_DIR$/app/views/dashboard/checkin/index.html.erb" />
@@ -122,9 +110,10 @@
         <option value="$PROJECT_DIR$/app/views/layouts/dashboard/_sidebar.html.erb" />
         <option value="$PROJECT_DIR$/lib/clock.rb" />
         <option value="$PROJECT_DIR$/app/models/checkin_schedule.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/callback_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/checkin.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -690,34 +679,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin_schedules/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="157" selection-end="157" vertical-scroll-proportion="0.14851485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard/base/leaderboard.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="32" selection-start="679" selection-end="679" vertical-scroll-proportion="-13.541667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/base_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="55" selection-start="931" selection-end="931" vertical-scroll-proportion="0.7936508">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboard/base/badges.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -746,27 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/checkin_schedule.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="52" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131128183748_create_checkin_schedules.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131128211503_add_checkin_schedule_id_to_checkins.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20131128212751_add_days_to_checkin_schedule.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -781,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="105" selection-start="417" selection-end="417" vertical-scroll-proportion="-4.0384617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/callback_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="22" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
@@ -797,7 +730,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="83" selection-start="2503" selection-end="2503" vertical-scroll-proportion="0.5718475">
+        <state line="64" column="83" selection-start="2503" selection-end="2503" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/checkin.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="106" selection-start="122" selection-end="141" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131128183748_create_checkin_schedules.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="23" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131128183207_create_checkins.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131128200026_add_venue_name_to_checkin.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131128203434_add_venue_name_to_checkin_schedule.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131128211503_add_checkin_schedule_id_to_checkins.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/checkin_schedule.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="24" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="27" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.73015875">
           <folding />
         </state>
       </provider>
