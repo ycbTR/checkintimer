@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  venue_id: MyString
+  broadcast: MyString
+  lat: MyString
+  long: MyString
+  shout: MyString
+
+two:
+  user_id: 1
+  venue_id: MyString
+  broadcast: MyString
+  lat: MyString
+  long: MyString
+  shout: MyString

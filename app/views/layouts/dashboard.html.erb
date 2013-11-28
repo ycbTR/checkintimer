@@ -37,17 +37,20 @@
             </div>
             <%= yield :page_header %>
           </div>
+
           <!--Breadcrumb-->
-          <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Bread</a></li>
-            <li><a href="#">Crumbs</a></li>
-            <li class="active">Example</li>
-          </ol>
+          <!--<ol class="breadcrumb">-->
+          <!--<li><a href="#">Home</a></li>-->
+          <!--<li><a href="#">Bread</a></li>-->
+          <!--<li><a href="#">Crumbs</a></li>-->
+          <!--<li class="active">Example</li>-->
+          <!--</ol>-->
 
 
           <div class="main-content">
-            <%= yield %>
+            <div class="row">
+              <%= yield %>
+            </div>
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131128141053) do
+ActiveRecord::Schema.define(:version => 20131128212751) do
 
   create_table "authentications", :force => true do |t|
     t.string   "uid"
@@ -22,6 +22,41 @@ ActiveRecord::Schema.define(:version => 20131128141053) do
     t.string   "profile_picture_url"
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
+  end
+
+  create_table "checkin_schedules", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "shout"
+    t.string   "broadcast"
+    t.boolean  "private"
+    t.boolean  "post_to_facebook"
+    t.boolean  "post_to_twitter"
+    t.time     "time"
+    t.string   "state"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+    t.string   "venue_name"
+    t.string   "venue_id"
+    t.boolean  "monday"
+    t.boolean  "tuesday"
+    t.boolean  "wednesday"
+    t.boolean  "thursday"
+    t.boolean  "friday"
+    t.boolean  "saturday"
+  end
+
+  create_table "checkins", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "venue_id"
+    t.string   "broadcast"
+    t.string   "lat"
+    t.string   "long"
+    t.string   "shout"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+    t.string   "venue_name"
+    t.string   "icon_url"
+    t.integer  "checkin_schedule_id"
   end
 
   create_table "delayed_jobs", :force => true do |t|

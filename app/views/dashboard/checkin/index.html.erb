@@ -1,0 +1,19 @@
+<%= content_for :page_header do %>
+    <h1><i class="icon-list"></i>Checkinlerim</h1>
+<% end %>
+<div class="widget">
+  <div class="col-md-12">
+
+  <% @checkins.each do |checkin| %>
+      <div class="alert alert-info">
+        <div class="pull-right">
+          <%= "#{time_ago_in_words(checkin.created_at)} önce" %>
+        </div>
+        <i class="icon-map-marker"></i> <strong><%= checkin.venue_name %></strong> adlı mekanda check-in yaptın.
+        <br>
+        <%= checkin.shout %>
+        <div class="clearfix"></div>
+      </div>
+  <% end %>
+</div>
+</div>

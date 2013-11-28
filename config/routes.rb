@@ -9,8 +9,18 @@ Checkintimer::Application.routes.draw do
 
   root :to => "home#index"
   get "/dashboard", :to => "dashboard/base#index", :as => :dashboard
-  namespace :dashboard do
 
+
+  namespace :dashboard do
+    get "/account", :to => "account#show", :as => :account
+    match "/checkin/now", :to => "checkin#now", :as => :checkin_now
+    #match "/checkin/schedule", :to => "checkin#schedule", :as => :checkin_schedule
+    #match "/checkin/schedules", :to => "checkin#schedules", :as => :checkin_schedules
+    get "/checkins", :to => "checkin#index", :as => :checkins
+    get "/leaderboard", :to => "base#leaderboard", :as => :leaderboard
+    get "/badges", :to => "base#badges", :as => :badges
+
+    resources :checkin_schedules, :path => "/checkin/schedules"
   end
   # The priority is based upon order of creation:
   # first created -> highest priority.

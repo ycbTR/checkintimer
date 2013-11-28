@@ -1,0 +1,2 @@
+module CheckinSchedulesHelper
+end

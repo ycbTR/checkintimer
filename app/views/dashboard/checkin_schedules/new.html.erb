@@ -1,0 +1,18 @@
+<%= content_for :page_header do %>
+    <h1><i class="icon-map-marker"></i>Yeni Check-in Programı</h1>
+<% end %>
+
+<div class="widget">
+  <div class="col-md-12">
+  <div class="widget-content-white glossed">
+    <div class="padded">
+      <%= form_for [:dashboard, @checkin_schedule] do |f| %>
+          <%= render :partial => "form", :locals => {:f => f} %>
+          <button class="btn btn-primary">
+            <i class="icon-time"></i> Oluştur
+          </button>
+      <% end %>
+    </div>
+    </div>
+  </div>
+</div>

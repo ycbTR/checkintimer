@@ -1,0 +1,30 @@
+<%= content_for :page_header do %>
+    <h1><i class="icon-group"></i>Skor Tahtası</h1>
+<% end %>
+
+<div class="widget-content-white glossed">
+  <div class="padded">
+    <table class="table table-striped table-bordered table-hover">
+      <thead>
+      <tr>
+        <th>Rank</th>
+        <th>İsim</th>
+        <th>Son 7 Gün Skor</th>
+        <th>Son 7 Gün Check-In</th>
+        <th>Resim</th>
+      </tr>
+      </thead>
+      <tbody>
+      <% @leaderboard.each do |item| %>
+          <tr>
+            <td><%= item.rank %></td>
+            <td><%= "#{item.user.firstName} #{item.user.lastName}" %></td>
+            <td><%= item.scores.recent %></td>
+            <td><%= item.scores.checkinsCount %></td>
+            <td><%= image_tag item.user.photo %></td>
+          </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  shout: MyString
+  broadcast: MyString
+  private: false
+  post_to_facebook: false
+  post_to_twitter: false
+  time: 2013-11-28 20:37:48
+  days: MyString
+  state: MyString
+
+two:
+  user_id: 1
+  shout: MyString
+  broadcast: MyString
+  private: false
+  post_to_facebook: false
+  post_to_twitter: false
+  time: 2013-11-28 20:37:48
+  days: MyString
+  state: MyString

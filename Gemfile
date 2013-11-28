@@ -34,6 +34,8 @@ gem 'foursquare2'
 gem "json"
 gem "typhoeus"
 gem "quimby"
+gem "clockwork"
+gem "state_machine"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

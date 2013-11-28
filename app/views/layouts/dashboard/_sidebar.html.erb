@@ -15,12 +15,11 @@
     </a>
 
     <div class="search-box">
-      <input type="text" placeholder="SEARCH" class="form-control">
+      <!--<input type="text" placeholder="SEARCH" class="form-control">-->
     </div>
     <ul class="side-menu side-menu-dark-blue">
       <li>
-        <a href="/checkins">
-          <span class="badge badge-notifications pull-right alert-animated">5</span>
+        <a href="<%= dashboard_checkin_now_path %>">
           <i class="icon-map-marker"></i> Check-in Yap
         </a>
       </li>
@@ -28,22 +27,24 @@
     <div class="relative-w">
       <ul class="side-menu side-menu-dark-blue">
         <li>
-          <a href="index.html">
-            <span class="badge pull-right">17</span>
+          <a href="<%= dashboard_checkins_path %>">
             <i class="icon-rocket"></i> Checkinlerim
           </a>
         </li>
-
         <li>
-          <a href="index.html">
-            <span class="badge pull-right">17</span>
-            <i class="icon-trophy"></i> Rozetlerim
+          <a href="<%= dashboard_checkin_schedules_path %>">
+            <i class="icon-time"></i> Programlarım
           </a>
         </li>
 
+        <!--<li>-->
+          <!--<a href="<%= dashboard_badges_path %>">-->
+            <!--<i class="icon-trophy"></i> Rozetlerim-->
+          <!--</a>-->
+        <!--</li>-->
+
         <li>
-          <a href="index.html">
-            <span class="badge pull-right">17</span>
+          <a href="<%= dashboard_leaderboard_path %>">
             <i class="icon-group"></i> Skor Tahtam
           </a>
         </li>

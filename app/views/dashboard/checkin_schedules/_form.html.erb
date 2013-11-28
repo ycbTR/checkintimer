@@ -1,0 +1,69 @@
+<div class="form-group">
+  <label>Mekan</label>
+  <%= f.select :venue_id, options_for_select(current_user.venues_for_select, params[:venue_id]), {}, :class => "form-control venue-select" %>
+  <%= f.hidden_field :venue_name %>
+</div>
+
+<div class="form-group">
+  <label>Söylemek İstediğin</label>
+  <%= f.text_field :shout, :class => "form-control" %>
+</div>
+
+<div class="form-group">
+  <label>Göster</label><br>
+  <label class="checkbox-inline">
+    <%= f.check_box("post_to_facebook") %> Facebook
+  </label>
+  <label class="checkbox-inline">
+    <%= f.check_box("post_to_twitter") %> Twitter
+  </label>
+  <label class="checkbox-inline">
+    <%= f.check_box("private") %> Gizli
+  </label>
+</div>
+
+<div class="form-group">
+  <label>Hangi Günler?</label><br>
+  <label class="checkbox-inline">
+    <%= f.check_box("monday") %> Pazartesi
+  </label>
+  <label class="checkbox-inline">
+    <%= f.check_box("tuesday") %> Salı
+  </label>
+  <label class="checkbox-inline">
+    <%= f.check_box("wednesday") %> Çarşamba
+  </label>
+
+  <label class="checkbox-inline">
+    <%= f.check_box("thursday") %> Perşembe
+  </label>
+  <label class="checkbox-inline">
+    <%= f.check_box("friday") %> Cuma
+  </label>
+  <label class="checkbox-inline">
+    <%= f.check_box("saturday") %> Cumartesi
+  </label>
+  <label class="checkbox-inline">
+    <%= f.check_box("sunday") %> Pazar
+  </label>
+
+
+</div>
+
+<div class="form-group">
+  <label>Ne Zaman?</label>   <br>
+  <%= f.time_select :time, {},:class => " input-sm" %>
+</div>
+
+
+<script>
+    $(function () {
+        set_venue_name();
+        $('.venue-select').change(function () {
+            set_venue_name();
+        });
+    });
+    set_venue_name = function () {
+        $("#checkin_schedule_venue_name").val($('.venue-select option:selected').text());
+    }
+</script>
