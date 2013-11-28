@@ -39,12 +39,17 @@ class CheckinSchedule < ActiveRecord::Base
   end
 
   def self.perform
-    queued_checkins = CheckinSchedule.where(:time => (Time.now - 1.minute)..(Time.now)).where("#{Time.now.strftime('%A').downcase}".to_sym => true)
+    puts "Starting perform #{Time.now}"
+    _time = Time.now
+    time = Time.new("2000", "01", "01", _time.hour, _time.min, _time.sec)
+    queued_checkins = CheckinSchedule.where("time > ? AND time <= ?", (time - 1.minute).to_s(:db), time.to_s(:db)).where("#{Time.now.strftime('%A').downcase}".to_sym => true)
     queued_checkins.each do |qc|
       user = qc.user
       next if !qc.can_checkin? || !user.can_checkin?
+      puts "Starting performing #{qc.to_yaml}"
       begin
         qc.user.add_checkin(qc)
+          puts "Added checkin"
       rescue
         #TODO Airbrake.notify
         next

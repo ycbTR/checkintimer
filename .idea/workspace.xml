@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a629ea7e-a7c2-41d6-bb01-06061798ae2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/_form.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/dashboard/base/badges.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/dashboard/checkin_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/clock.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/dashboard/checkin/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/dashboard/base/leaderboard.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/dashboard/checkin/now.html.erb" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/FontAwesome-5564c6ac655939a39a6cac020594a501.otf" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/FontAwesome.otf" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-07f0668969ae45b3002b81d59ab94ea0.css" afterPath="" />
@@ -210,26 +203,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/vimeo.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/youtube-b101b995490bcbdf70ebdf2037a20741.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/youtube.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__checkintimer.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__checkintimer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__checkintimer.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__checkintimer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/dashboard/_sidebar.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/dashboard/_sidebar.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/dashboard/base_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/dashboard/base_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/callback_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/callback_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/checkintimer.iml" afterPath="$PROJECT_DIR$/.idea/checkintimer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/dashboard.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/dashboard.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__checkintimer.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__checkintimer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__checkintimer.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__checkintimer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/checkin_schedule.rb" afterPath="$PROJECT_DIR$/app/models/checkin_schedule.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/clock.rb" afterPath="$PROJECT_DIR$/lib/clock.rb" />
     </list>
     <ignored path="checkintimer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -237,8 +212,8 @@
     <file path="/user.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385677132142" ignored="false" />
     <file path="/accounts_controller.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385663332935" ignored="false" />
     <file path="/routes.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385676871408" ignored="false" />
-    <file path="/clock.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385664300822" ignored="false" />
-    <file path="/checkin_schedule.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385674865423" ignored="false" />
+    <file path="/clock.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385677426418" ignored="false" />
+    <file path="/checkin_schedule.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385678757262" ignored="false" />
     <file path="/20131128183748_create_checkin_schedules.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385664609485" ignored="false" />
     <file path="/Gemfile" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385665358363" ignored="false" />
     <file path="/callback_controller.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385672429108" ignored="false" />
@@ -299,10 +274,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_sidebar.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_sidebar.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/dashboard/_sidebar.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="3" selection-start="693" selection-end="693" vertical-scroll-proportion="0.5346535">
+            <state line="18" column="3" selection-start="693" selection-end="693" vertical-scroll-proportion="5.8333335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clock.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/clock.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boot.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/boot.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkin_schedule.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/checkin_schedule.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="52" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.6461988">
               <folding />
             </state>
           </provider>
@@ -353,10 +355,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131128212751_add_days_to_checkin_schedule.rb" />
         <option value="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/checkin_schedule.rb" />
         <option value="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/dashboard.html.erb" />
@@ -369,6 +369,8 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/dashboard/_sidebar.html.erb" />
+        <option value="$PROJECT_DIR$/lib/clock.rb" />
+        <option value="$PROJECT_DIR$/app/models/checkin_schedule.rb" />
       </list>
     </option>
   </component>
@@ -425,6 +427,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="checkintimer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkintimer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkintimer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -804,8 +820,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26009792" sideWeight="0.600863" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.399137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26009792" sideWeight="0.43797195" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.56202805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -888,27 +904,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131128212751_add_days_to_checkin_schedule.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="400" selection-end="448" vertical-scroll-proportion="0.23715416">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin_schedules/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="33" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.5912863">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/checkin_schedule.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="145" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.37429112">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="48" selection-start="2857" selection-end="2857" vertical-scroll-proportion="0.67193675">
@@ -995,7 +990,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/dashboard/_sidebar.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="3" selection-start="693" selection-end="693" vertical-scroll-proportion="0.5346535">
+        <state line="18" column="3" selection-start="693" selection-end="693" vertical-scroll-proportion="5.8333335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/clock.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/checkin_schedule.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="52" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.6461988">
           <folding />
         </state>
       </provider>

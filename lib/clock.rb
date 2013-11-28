@@ -1,4 +1,6 @@
 require 'clockwork'
+require './config/boot'
+require './config/environment'
 module Clockwork
 
   handler do |job|
@@ -12,7 +14,7 @@ module Clockwork
 
 
   every(1.minute, 'Do Checkins') {
-    CheckinSchedule.perform
+    ::CheckinSchedule.perform
   }
 
 end
