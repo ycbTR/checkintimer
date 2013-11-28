@@ -11,7 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131128140304) do
+ActiveRecord::Schema.define(:version => 20131128141053) do
+
+  create_table "authentications", :force => true do |t|
+    t.string   "uid"
+    t.string   "oauth_token"
+    t.string   "oauth_secret"
+    t.integer  "user_id"
+    t.string   "provider"
+    t.string   "profile_picture_url"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
 
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0, :null => false
@@ -28,6 +39,19 @@ ActiveRecord::Schema.define(:version => 20131128140304) do
   end
 
   add_index "delayed_jobs", ["priority", "run_at"], :name => "delayed_jobs_priority"
+
+  create_table "rails_admin_histories", :force => true do |t|
+    t.text     "message"
+    t.string   "username"
+    t.integer  "item"
+    t.string   "table"
+    t.integer  "month",      :limit => 2
+    t.integer  "year",       :limit => 5
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
+  end
+
+  add_index "rails_admin_histories", ["item", "table", "month", "year"], :name => "index_rails_admin_histories"
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false

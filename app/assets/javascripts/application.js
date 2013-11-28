@@ -12,5 +12,62 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require twitter/bootstrap
 //= require_tree .
+
+
+$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+
+});
+$(document).ready(function () {
+    $('#countdown_dashboard').countDown({
+        targetDate: {
+            'day': 01,
+            'month': 12,
+            'year': 2013,
+            'hour': 12,
+            'min': 00,
+            'sec': 0
+        },
+        // onComplete function
+        onComplete: function () {
+            $('#main-text').replaceWith('<h2 class="#main-text">WE ARE FINISHED!</h2>');
+            $('#second-text').replaceWith('<h3 class="#second-text">Please wait while we finish updating the site.</h3>');
+        }
+
+    });
+
+    $("#Gmap").gmap3({
+            map: {
+                options: {
+                    maxZoom: 16,
+                    zoomControl: false,
+                    streetViewControl: false
+                }
+            },
+            marker: {
+                address: "Papine Square, Kingston, Jamaica",    //Paste address here
+                options: {
+                    icon: new google.maps.MarkerImage(
+                        "/assets/marker.png",
+                        new google.maps.Size(32, 46, "px", "px")
+                    )
+                }
+            }
+        },
+        "autofit");
+});
+
+
