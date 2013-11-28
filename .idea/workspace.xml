@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a629ea7e-a7c2-41d6-bb01-06061798ae2c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20131128204158_add_venue_id_to_checkin_schedule.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/FontAwesome-5564c6ac655939a39a6cac020594a501.otf" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/FontAwesome.otf" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-07f0668969ae45b3002b81d59ab94ea0.css" afterPath="" />
@@ -84,7 +85,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_cd0a0a_256x240.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery.min-681f94734a0feabbab5f0541237dece3.map" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/marker-7c61c4bbdaa90a8ed936581a33f1d647.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/marker.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails-9bef04d988024eeec51550500554f4b5.png" afterPath="" />
@@ -203,6 +203,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/vimeo.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/youtube-b101b995490bcbdf70ebdf2037a20741.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/youtube.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
     </list>
     <ignored path="checkintimer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -253,89 +254,7 @@
     <favorites_list name="checkintimer" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="base_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/base_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="12" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leaderboard.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/dashboard/base/leaderboard.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="32" selection-start="679" selection-end="679" vertical-scroll-proportion="-13.541667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_sidebar.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/dashboard/_sidebar.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="3" selection-start="693" selection-end="693" vertical-scroll-proportion="5.8333335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clock.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/clock.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boot.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/boot.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkin_schedule.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/checkin_schedule.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="52" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.6461988">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="badges.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/dashboard/base/badges.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="55" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="38" selection-start="1602" selection-end="1602" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -425,6 +344,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="checkintimer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkintimer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkintimer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkintimer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkintimer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -812,13 +763,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26009792" sideWeight="0.43797195" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26009792" sideWeight="0.43797195" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.56202805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -902,34 +853,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="48" selection-start="2857" selection-end="2857" vertical-scroll-proportion="0.67193675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/dashboard.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="16" selection-start="1532" selection-end="1532" vertical-scroll-proportion="-13.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="6" selection-start="560" selection-end="560" vertical-scroll-proportion="0.560166">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin/now.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="1" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.7920792">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin_schedules/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="23" selection-start="162" selection-end="162" vertical-scroll-proportion="0.14851485">
@@ -967,14 +890,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="55" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
+        <state line="20" column="55" selection-start="931" selection-end="931" vertical-scroll-proportion="0.7936508">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="38" selection-start="1602" selection-end="1602" vertical-scroll-proportion="0.0">
+        <state line="47" column="38" selection-start="1602" selection-end="1602" vertical-scroll-proportion="0.6058201">
           <folding />
         </state>
       </provider>
@@ -1009,7 +932,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/checkin_schedule.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="52" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.6461988">
+        <state line="53" column="52" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131128183748_create_checkin_schedules.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="23" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131128211503_add_checkin_schedule_id_to_checkins.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131128212751_add_days_to_checkin_schedule.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
