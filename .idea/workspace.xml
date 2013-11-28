@@ -2,110 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a629ea7e-a7c2-41d6-bb01-06061798ae2c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/FontAwesome-5564c6ac655939a39a6cac020594a501.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-07f0668969ae45b3002b81d59ab94ea0.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-07f0668969ae45b3002b81d59ab94ea0.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-99f6f015bda888af00bc61926ef1f50f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-99f6f015bda888af00bc61926ef1f50f.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/arrow-up-a95db66aed1f26eed3e7700753d420f9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bg-f598c4b48c85571ea980b0f06d7a199f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/dash-2700433afe89daab92306c6c35904231.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/dashboard/application-2f644ba5435a884c6b5555c28bfc97eb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/dashboard/application-2f644ba5435a884c6b5555c28bfc97eb.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/dashboard/application-805c74fba3330b57ce63df42abc16de7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/dashboard/application-805c74fba3330b57ce63df42abc16de7.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font/fontawesome-webfont--23acfc1377d06db024ef53579f8d15ac.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font/fontawesome-webfont-b4e8e866c62e7ff34c9d8c7e4ffdd992.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font/fontawesome-webfont-v=3.2.1-1326634fa5e49e9d681488413ab4a0c4.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font/fontawesome-webfont-v=3.2.1-23acfc1377d06db024ef53579f8d15ac.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font/fontawesome-webfont-v=3.2.1-6146742feb90aa11f604b88a17b8bbcc.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-1326634fa5e49e9d681488413ab4a0c4.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-23acfc1377d06db024ef53579f8d15ac.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-6146742feb90aa11f604b88a17b8bbcc.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-b4e8e866c62e7ff34c9d8c7e4ffdd992.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-0a3376b9d8b67ceb173084af8dd87b54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-white-8381e6e6e72e80956224022a1d371c69.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/home/application-07f0668969ae45b3002b81d59ab94ea0.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/home/application-07f0668969ae45b3002b81d59ab94ea0.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/home/application-99f6f015bda888af00bc61926ef1f50f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/home/application-99f6f015bda888af00bc61926ef1f50f.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_flat_0_aaaaaa_40x100-674c23e75643109c9548679cbca56648.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100-dbbf6ecd77cfab317a37824496870bc7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_55_fbf9ee_1x400-775766ab21f216cf3d6c5fe1a3d7ad6e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_65_ffffff_1x400-3aab0cd884b9f3f60beea59a474fd46b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_75_dadada_1x400-ec3a6a057ac6dfa3c9ab8fcc1ed7ed76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_75_e6e6e6_1x400-1a7e8ec2a829a4ec4e1d76d6040588ec.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_95_fef1ec_1x400-0a317e9fe85a083fb56ccf992ee72209.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_highlight-soft_75_cccccc_1x100-3be1b8371a85df4fcc1e885d973cc3db.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_222222_256x240-54bdbf21f1680d80e7e724e49e593c65.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_2e83ff_256x240-7c9793b5904dfe9b590a8d0532891cfe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_454545_256x240-49277a3d88d871d6471f24d0c91dd845.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_888888_256x240-30550c972c2ac9c7d3ca054ff61a5c84.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_cd0a0a_256x240-c3ff546897d0f81e9a9763fb41097091.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery.min-681f94734a0feabbab5f0541237dece3.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/marker-7c61c4bbdaa90a8ed936581a33f1d647.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails-9bef04d988024eeec51550500554f4b5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/bg_fallback-8c7e7df7249d8bd749f039e0b6e33599.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/icon_sprite-028c701d8719a7836f773819ab6ebe49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/progress_bar-a15c6e2c34b295813aff924ad6dd9ad8.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/slider_handles-2fcce65281f0b50cd680dc8bb5ad1238.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/ui-icons_222222_256x240-719a4e7d47e398a7492a5658e6366332.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/ui-icons_454545_256x240-6394263547eb1ebb5d907c47b32bf243.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/base/README-a4ec3748cbd3969056154f4a655d121c.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/bullet_black-9dc875d50e5eacaf46f8a4947a5905b5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/bullet_white-02dd41817b2103b5cd3cc1d282d9f88d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/calendar-3d7d3508b05faa2937c2fc3752f5b3ba.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/clock-591bc61c093ac64f49836c7d9e03edc8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_background-ad6352c702dad9f73cb3068cdfe5e005.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_hex-38861fb83a3e9a391e2fb695a6aea642.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_hsb_b-f537fa46c1588455064ce206f6e2b322.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_hsb_h-e6f1c4a89734a32d4a83cb47a25635d6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_hsb_s-37f85a9b716401288268c8342abd9cbd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_indic-ab733d7d24bc1cd3b000f1f948449651.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_overlay-9ad32e177c229aabf5473492a235f7f9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_rgb_b-f537fa46c1588455064ce206f6e2b322.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_rgb_g-73b13a0202d68e7f1be74f9993cd0750.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_rgb_r-522a947493ce2ccfa61f89cb07dbb997.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_select-f97acff92d2b6d9b1752d2da53cbcb48.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_submit-da1d236321ae95c22d5b49623a1a4206.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_background-fdc5018d96fdb7fd728d1c4fc2662a22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_hex-7a49f6cd409337a8a42921a7e9416e76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_hsb_b-2c4b798edf0c403df9ab6ac6197c131a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_hsb_h-cc7d4a13cfecf83647f081f97cb32a3e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_hsb_s-ff32716bccbd41db3ac68d9b721b4fe3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_indic-4912cd6e12a2461725f2b9cc2a3c5539.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_rgb_b-4c4b89585a74d88978ca6c657888735c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_rgb_g-09e8a26dfe8071e5537c3200ad495f15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_rgb_r-011b81734492ca5feb7c900677a63bca.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_submit-50dba4f930105f57834ce34490ee5791.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/select-3877aac8a2de5b338a30c0564267ca82.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/select2-9a0c9cdd543593f9467255f5e0ec5817.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/slider-ac25f389a28aabfb90058c9743f3a501.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker-8881253dd9f420f767aad0d820b8ade4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker-8881253dd9f420f767aad0d820b8ade4.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker-ce940c7f0f44d5c9300976da9a34f39f.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker-ce940c7f0f44d5c9300976da9a34f39f.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/logo-ac018654888db50f976b78e247128340.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/magnifier-86f67329e6c498f7725fb748e8a9c897.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/icon_sprite-028c701d8719a7836f773819ab6ebe49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/ui-icon-circle-triangle-n-dark-de894fefed3f0ba86a986a8915ba38cc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/ui-icon-circle-triangle-n-light-bfaee202af9e7ee12037ff489b310222.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/ui-icon-circle-triangle-s-dark-e04e90f6477fe9e091728d4b2a6619b6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/ui-icon-circle-triangle-s-light-2a3edcb31b90c04ed41e5db0c263308d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin-0fb1c348d825dd9efb9b6024434df9d5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin-0fb1c348d825dd9efb9b6024434df9d5.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin-ddd24080c64c2f68b1d6f194fd07fc79.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin-ddd24080c64c2f68b1d6f194fd07fc79.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/dribbble-88eb0775be0491139b82205320de715b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/facebook-7614a25662035ad928a1d04851ad01ff.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/google+-93a1b631eb79dedb6ae190b9b66b9c11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/twitter-9c61620c67a95cc8d484febaab52e49f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/vimeo-19b5a8bcda685810273ce44076613edd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/social-icons/youtube-b101b995490bcbdf70ebdf2037a20741.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/callback_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/callback_controller.rb" />
     </list>
     <ignored path="checkintimer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -156,7 +53,17 @@
     <favorites_list name="checkintimer" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="callback_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/callback_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="81" selection-start="707" selection-end="707" vertical-scroll-proportion="0.4520548">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -174,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20131128212751_add_days_to_checkin_schedule.rb" />
         <option value="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
@@ -190,6 +96,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/dashboard/_sidebar.html.erb" />
         <option value="$PROJECT_DIR$/lib/clock.rb" />
         <option value="$PROJECT_DIR$/app/models/checkin_schedule.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/callback_controller.rb" />
       </list>
     </option>
   </component>
@@ -665,13 +572,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26009792" sideWeight="0.43797195" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26009792" sideWeight="0.43797195" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.56202805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -856,6 +763,13 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20131128212751_add_days_to_checkin_schedule.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/callback_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="81" selection-start="707" selection-end="707" vertical-scroll-proportion="0.4520548">
           <folding />
         </state>
       </provider>

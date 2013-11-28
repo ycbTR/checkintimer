@@ -3,7 +3,7 @@ class CallbackController < ApplicationController
 
   def foursquare
     if params[:code].blank?
-      redirect_to @foursquare.authorize_url(foursquare_callback_url(:host => "127.0.0.1")) and return
+      redirect_to @foursquare.authorize_url(foursquare_callback_url(:host => request.host)) and return
     elsif params[:code].present?
       @access_token = @foursquare.access_token(params["code"], (foursquare_callback_url :host => request.host))
       user = User.readonly(false).joins(:authentications).where("#{Authentication.table_name}.oauth_token = ?", @access_token).where("#{Authentication.table_name}.provider = ?", "foursquare").first
