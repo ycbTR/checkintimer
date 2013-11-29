@@ -17,7 +17,7 @@ class User < ActiveRecord::Base
   end
 
   def can_checkin?
-    self.checkins.where(:created_at => (Date.today.beginning_of_month)..(Date.today.end_of_month)).count <= 30
+    self.checkins.where(:created_at => (Date.today.beginning_of_month)..(Date.today.end_of_month)).count <= 60
   end
 
   def add_checkin(checkin_schedule)
