@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a629ea7e-a7c2-41d6-bb01-06061798ae2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/dashboard/_sidebar.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/dashboard/_sidebar.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
     </list>
     <ignored path="checkintimer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,10 +46,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkin_schedules_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="checkin_schedules_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="83" selection-start="512" selection-end="512" vertical-scroll-proportion="0.22149302" vertical-offset="0" max-vertical-offset="1365">
+            <state line="17" column="22" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkin_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/checkin_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="27" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="10" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.40607056" vertical-offset="0" max-vertical-offset="1219">
               <folding />
             </state>
           </provider>
@@ -71,7 +87,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/authentication.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/jquery.countdown.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/respond.js" />
@@ -102,6 +117,7 @@
         <option value="$PROJECT_DIR$/app/models/checkin_schedule.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/dashboard/_sidebar.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -608,7 +624,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb</url>
+          <line>6</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -805,11 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="420" selection-end="420" vertical-scroll-proportion="0.19396552" vertical-offset="0" max-vertical-offset="696" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/dashboard.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="24" selection-start="1140" selection-end="1140" vertical-scroll-proportion="-10.041667" vertical-offset="359" max-vertical-offset="1065">
@@ -847,7 +865,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="83" selection-start="512" selection-end="512" vertical-scroll-proportion="0.22149302" vertical-offset="0" max-vertical-offset="1365">
+        <state line="17" column="22" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/checkin_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="10" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.40607056" vertical-offset="0" max-vertical-offset="1219">
           <folding />
         </state>
       </provider>
