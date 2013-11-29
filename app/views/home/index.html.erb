@@ -6,8 +6,13 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="CheckinTimer ile Foursquare check-inlerinizi günlük, saatlik programlayabilir ve otomatik checkin yapabilirsiniz."/>
-  <meta name="keywords" content="otomatik checkin, foursquare, yerbildirimi, auto checkin, checkintimer"/>
+  <meta name="keywords" content="otomatik checkin,4sq, foursquare, yerbildirimi, auto checkin, checkintimer"/>
   <meta name="author" content="ycb"/>
+
+  <meta property="og:title" content="CheckinTimer | Otomatik Foursquare Check-in">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://checkintimer.com/assets/og-fb.png">
+  <meta property="og:site_name" content="CheckinTimer | Otomatik Foursquare Check-in">
   <title>CheckinTimer - Otomatik Foursquare Check-In</title>
   <%= csrf_meta_tags %>
 
@@ -23,7 +28,7 @@
   <div class="container content">
     <div class="row">
       <div class="header-left-text" style="font-size: 20px;">
-          <i class="icon-map-marker"></i> <i class="icon-time"></i> Checkin Timer<br>
+        <i class="icon-map-marker"></i> <i class="icon-time"></i> Checkin Timer<br>
       </div>
       <div class="header-right-text">
         <%= link_to "<i class='icon-foursquare'> Foursquare ile giriş yap </i>".html_safe, foursquare_callback_path, :class => "btn btn-primary" %>
@@ -219,7 +224,8 @@
       <div class="container content">
         <!-- Social Icons -->
         <ul class="social-icon-container">
-          CheckinTimer - Tüm Hakları Saklıdır &copy; <%= Date.today.year %>     <a href="mailto:support@checkintimer.com">support@checkintimer.com</a>
+          CheckinTimer - Tüm Hakları Saklıdır &copy; <%= Date.today.year %>
+          <a href="mailto:support@checkintimer.com">support@checkintimer.com</a>
           <!--<li>-->
           <!--<a href="https://foursquare.com/user/72639762" target="_blank">-->
           <!--jkö            </a>-->
