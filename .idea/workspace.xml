@@ -49,7 +49,7 @@
       <file leaf-file-name="checkin_schedules_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="59" selection-start="892" selection-end="892" vertical-scroll-proportion="0.22240803" vertical-offset="169" max-vertical-offset="1380">
+            <state line="29" column="113" selection-start="946" selection-end="946" vertical-scroll-proportion="0.22240803" vertical-offset="169" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
@@ -920,7 +920,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="59" selection-start="892" selection-end="892" vertical-scroll-proportion="0.22240803" vertical-offset="169" max-vertical-offset="1380">
+        <state line="29" column="113" selection-start="946" selection-end="946" vertical-scroll-proportion="0.22240803" vertical-offset="169" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
