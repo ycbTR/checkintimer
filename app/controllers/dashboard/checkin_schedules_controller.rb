@@ -26,7 +26,8 @@ class Dashboard::CheckinSchedulesController < Dashboard::BaseController
   # GET /checkin_schedules/new
   # GET /checkin_schedules/new.json
   def new
-    @checkin_schedule = current_user.checkin_schedules.new
+    @checkin_schedule = current_user.checkin_schedules.new(:monday => true, :tuesday => true, :wednesday => true,
+                                                           :thursday => true, :friday => true, :sunday => true)
 
     respond_to do |format|
       format.html # new.html.erb

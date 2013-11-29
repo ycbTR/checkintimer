@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a629ea7e-a7c2-41d6-bb01-06061798ae2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb" />
     </list>
     <ignored path="checkintimer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkin_schedules_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="checkin_schedules_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1365">
+            <state line="29" column="59" selection-start="892" selection-end="892" vertical-scroll-proportion="0.22240803" vertical-offset="169" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
@@ -74,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin_schedules/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="94" selection-start="225" selection-end="225" vertical-scroll-proportion="0.038395904" vertical-offset="0" max-vertical-offset="1172">
+            <state line="27" column="29" selection-start="819" selection-end="819" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -126,9 +125,9 @@
         <option value="$PROJECT_DIR$/app/controllers/callback_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/checkin_schedule.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/dashboard/_sidebar.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb" />
       </list>
     </option>
   </component>
@@ -898,13 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/checkin_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="27" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
@@ -921,7 +913,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin_schedules/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="94" selection-start="225" selection-end="225" vertical-scroll-proportion="0.038395904" vertical-offset="0" max-vertical-offset="1172">
+        <state line="27" column="29" selection-start="819" selection-end="819" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/checkin_schedules_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="59" selection-start="892" selection-end="892" vertical-scroll-proportion="0.22240803" vertical-offset="169" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
