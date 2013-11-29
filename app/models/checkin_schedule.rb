@@ -40,7 +40,7 @@ class CheckinSchedule < ActiveRecord::Base
 
   def self.perform
     puts "Starting perform #{Time.now}"
-    _time = Time.now
+    _time = Time.now.in_time_zone("Turkey")
     time = Time.new("2000", "01", "01", _time.hour, _time.min, _time.sec)
     queued_checkins = CheckinSchedule.where("time > ? AND time <= ?", (time - 1.minute).to_s(:db), time.to_s(:db)).where("#{Time.now.strftime('%A').downcase}".to_sym => true)
     queued_checkins.each do |qc|
