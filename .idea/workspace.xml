@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a629ea7e-a7c2-41d6-bb01-06061798ae2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/airbrake.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/newrelic.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/newrelic.yml" afterPath="$PROJECT_DIR$/config/newrelic.yml" />
     </list>
     <ignored path="checkintimer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="airbrake.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="airbrake.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/airbrake.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="0.17786561">
+            <state line="6" column="55" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newrelic.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="newrelic.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/newrelic.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="227" column="0" selection-start="9499" selection-end="9499" vertical-scroll-proportion="0.0">
+            <state line="214" column="52" selection-start="9087" selection-end="9087" vertical-scroll-proportion="3.2826087">
               <folding />
             </state>
           </provider>
@@ -160,9 +154,9 @@
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/newrelic.yml" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/initializers/airbrake.rb" />
+        <option value="$PROJECT_DIR$/config/newrelic.yml" />
       </list>
     </option>
   </component>
@@ -665,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/newrelic.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="0" selection-start="9499" selection-end="9499" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="29" selection-start="2408" selection-end="2408" vertical-scroll-proportion="0.0">
@@ -681,7 +668,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/airbrake.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="0.17786561">
+        <state line="6" column="55" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/newrelic.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="52" selection-start="9087" selection-end="9087" vertical-scroll-proportion="3.2826087">
           <folding />
         </state>
       </provider>
