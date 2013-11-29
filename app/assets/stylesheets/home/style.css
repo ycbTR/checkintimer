@@ -191,28 +191,28 @@ header {
 header h1 {
     margin:60px 0;
     text-transform: uppercase;
-    animation: fadein 3s;
-    -moz-animation: fadein 3s; 
-    -webkit-animation: fadein 3s; 
-    -o-animation: fadein 3s; 
+    animation: fadein 0s;
+    -moz-animation: fadein 0s;
+    -webkit-animation: fadein 0s;
+    -o-animation: fadein 0s;
 }
 
 header h3 {
     font-size: 32px;
     margin: 40px 0 140px;
     font-weight:300;
-    animation: fadein 4s;
-    -moz-animation: fadein 4s; 
-    -webkit-animation: fadein 4s; 
-    -o-animation: fadein 4s; 
+    animation: fadein 0s;
+    -moz-animation: fadein 0s;
+    -webkit-animation: fadein 0s;
+    -o-animation: fadein 0s;
 }
 
 header h5 {
     font-weight:300;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; 
-    -webkit-animation: fadein 2s; 
-    -o-animation: fadein 2s; 
+    animation: fadein 0s;
+    -moz-animation: fadein 0s;
+    -webkit-animation: fadein 0s;
+    -o-animation: fadein 0s;
 }
 
 header h5 a{
@@ -241,10 +241,10 @@ header h5 a{
 	height: 110px;
     margin:80px auto;
     max-width:650px;
-    animation: fadein 5s;
-    -moz-animation: fadein 5s; 
-    -webkit-animation: fadein 5s; 
-    -o-animation: fadein 5s; 
+    animation: fadein 0s;
+    -moz-animation: fadein 0s; 
+    -webkit-animation: fadein 0s; 
+    -o-animation: fadein 0s; 
 }
 
 .dash {

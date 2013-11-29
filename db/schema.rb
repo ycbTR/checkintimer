@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131128212751) do
+ActiveRecord::Schema.define(:version => 20131129201508) do
 
   create_table "authentications", :force => true do |t|
     t.string   "uid"
@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(:version => 20131128212751) do
     t.boolean  "thursday"
     t.boolean  "friday"
     t.boolean  "saturday"
+    t.boolean  "sunday"
   end
 
   create_table "checkins", :force => true do |t|
@@ -104,6 +105,7 @@ ActiveRecord::Schema.define(:version => 20131128212751) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at",                             :null => false
     t.datetime "updated_at",                             :null => false
+    t.string   "role"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

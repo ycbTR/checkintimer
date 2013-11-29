@@ -32,23 +32,6 @@ $(document).ready(function () {
 
 });
 $(document).ready(function () {
-    $('#countdown_dashboard').countDown({
-        targetDate: {
-            'day': 01,
-            'month': 12,
-            'year': 2013,
-            'hour': 12,
-            'min': 00,
-            'sec': 0
-        },
-        // onComplete function
-        onComplete: function () {
-            $('#main-text').replaceWith('<h2 class="#main-text">WE ARE FINISHED!</h2>');
-            $('#second-text').replaceWith('<h3 class="#second-text">Please wait while we finish updating the site.</h3>');
-        }
-
-    });
-
     $("#Gmap").gmap3({
             map: {
                 options: {
@@ -58,7 +41,7 @@ $(document).ready(function () {
                 }
             },
             marker: {
-                address: "Papine Square, Kingston, Jamaica",    //Paste address here
+                address: "Bagdat Cad Suadiye Istanbul, Turkey",    //Paste address here
                 options: {
                     icon: new google.maps.MarkerImage(
                         "/assets/marker.png",

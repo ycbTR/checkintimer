@@ -8,7 +8,7 @@
     </button>
   </div>
   <div class="side-bar-wrapper collapse navbar-collapse navbar-ex1-collapse">
-    <a href="#" class="logo hidden-sm hidden-xs">
+    <a href="/" class="logo hidden-sm hidden-xs">
       <i class="icon-map-marker"></i>
       <i class="icon-time"></i>
       <span>Checkin timer</span>
@@ -18,7 +18,7 @@
       <!--<input type="text" placeholder="SEARCH" class="form-control">-->
     <!--</div>-->
     <ul class="side-menu side-menu-dark-blue">
-      <li>
+      <li class="<%= 'active' if request.path == dashboard_checkin_now_path %>">
         <a href="<%= dashboard_checkin_now_path %>">
           <i class="icon-map-marker"></i> Check-in Yap
         </a>
@@ -26,12 +26,12 @@
     </ul>
     <div class="relative-w">
       <ul class="side-menu side-menu-dark-blue">
-        <li>
+        <li class="<%= 'active' if request.path == dashboard_checkins_path %>">
           <a href="<%= dashboard_checkins_path %>">
             <i class="icon-rocket"></i> Checkinlerim
           </a>
         </li>
-        <li>
+        <li class="<%= 'active' if request.path == dashboard_checkin_schedules_path %>">
           <a href="<%= dashboard_checkin_schedules_path %>">
             <i class="icon-time"></i> Programlarım
           </a>
@@ -43,7 +43,7 @@
           <!--</a>-->
         <!--</li>-->
 
-        <li>
+        <li class="<%= 'active' if request.path == dashboard_leaderboard_path %>">
           <a href="<%= dashboard_leaderboard_path %>">
             <i class="icon-group"></i> Skor Tahtam
           </a>

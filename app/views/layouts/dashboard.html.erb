@@ -25,28 +25,16 @@
   <div class="row">
     <%= render :partial => "layouts/dashboard/sidebar" %>
     <div class="col-md-9">
-
       <div class="content-wrapper">
         <div class="content-inner content-inner-grey">
-
           <!--Links-->
           <div class="page-header page-header-dark-blue">
             <div class="header-links hidden-xs">
-              <a href="#"><i class="icon-cog"></i> Settings</a>
+              <a href="#"><i class="icon-user"></i> HOŞGELDİN <%= "#{current_user.firstname} #{current_user.lastname}" %></a>
               <%= link_to '<i class="icon-signout"></i> Çıkış'.html_safe, destroy_user_session_path, :method => :delete %>
             </div>
             <%= yield :page_header %>
           </div>
-
-          <!--Breadcrumb-->
-          <!--<ol class="breadcrumb">-->
-          <!--<li><a href="#">Home</a></li>-->
-          <!--<li><a href="#">Bread</a></li>-->
-          <!--<li><a href="#">Crumbs</a></li>-->
-          <!--<li class="active">Example</li>-->
-          <!--</ol>-->
-
-
           <div class="main-content">
             <div class="row">
               <%= yield %>

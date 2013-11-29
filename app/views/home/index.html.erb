@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
+
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Coming Soon Page"/>
-  <meta name="keywords" content="coming soon, responsive"/>
-  <meta name="author" content="ZTApps"/>
-  <title>CheckinTimer - Coming soon Page</title>
+  <meta name="description" content="CheckinTimer ile Foursquare check-inlerinizi günlük, saatlik programlayabilir ve otomatik checkin yapabilirsiniz."/>
+  <meta name="keywords" content="otomatik checkin, foursquare, yerbildirimi, auto checkin, checkintimer"/>
+  <meta name="author" content="ycb"/>
+  <title>CheckinTimer - Otomatik Foursquare Check-In</title>
+  <%= csrf_meta_tags %>
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,700%7COpen+Sans:400italic,300,400,700" rel="stylesheet" type="text/css"/>
@@ -20,49 +22,63 @@
 
   <div class="container content">
     <div class="row">
-      <div class="header-left-text">
-        <h5><a href="mailto:support@checkintimer.com">support@checkintimer.com</a></h5>
+      <div class="header-left-text" style="font-size: 20px;">
+          <i class="icon-map-marker"></i> <i class="icon-time"></i> Checkin Timer<br>
       </div>
       <div class="header-right-text">
         <%= link_to "<i class='icon-foursquare'> Foursquare ile giriş yap </i>".html_safe, foursquare_callback_path, :class => "btn btn-primary" %>
       </div>
     </div>
-    <h1 id="main-text">SOMETHING AWESOME IS COMING</h1>
+    <h1 id="main-text">OTOMATİK FOURSQUARE CHECK-IN</h1>
 
-    <h3 id="second-text">You will never lose your mayorship again !</h3>
-
+    <h3 id="second-text">Mayor olmak artık daha kolay !</h3>
+    <% count = Checkin.count
+       count = count.to_s.rjust(10, "0").split("")
+    %>
     <!-- Countdown start -->
     <div id="countdown_dashboard">
-      <div class="dash weeks_dash">
-        <span class="dash_title">weeks</span>
 
-        <div class="digit">0</div>
-        <div class="digit">0</div>
+      <div class="dash weeks_dash">
+        <span class="dash_title"></span>
+
+        <div class="digit">
+          <%= count[0] %></div>
+        <div class="digit">
+          <%= count[1] %></div>
       </div>
       <div class="dash days_dash">
-        <span class="dash_title">days</span>
+        <span class="dash_title"></span>
 
-        <div class="digit">0</div>
-        <div class="digit">0</div>
+        <div class="digit">
+          <%= count[2] %></div>
+        <div class="digit">
+          <%= count[3] %></div>
       </div>
       <div class="dash hours_dash">
-        <span class="dash_title">hours</span>
+        <span class="dash_title"></span>
 
-        <div class="digit">0</div>
-        <div class="digit">0</div>
+        <div class="digit">
+          <%= count[4] %></div>
+        <div class="digit">
+          <%= count[5] %></div>
       </div>
       <div class="dash minutes_dash">
-        <span class="dash_title">minutes</span>
+        <span class="dash_title"></span>
 
-        <div class="digit">0</div>
-        <div class="digit">0</div>
+        <div class="digit">
+          <%= count[6] %></div>
+        <div class="digit">
+          <%= count[7] %></div>
       </div>
       <div class="dash seconds_dash">
-        <span class="dash_title">seconds</span>
+        <span class="dash_title"></span>
 
-        <div class="digit">0</div>
-        <div class="digit">0</div>
+        <div class="digit">
+          <%= count[8] %></div>
+        <div class="digit">
+          <%= count[9] %></div>
       </div>
+      ADET OTOMATİK CHECK-IN YAPILDI !
     </div>
     <!-- Countdown end -->
 
@@ -74,31 +90,12 @@
 <section id="newsletter">
   <div class="container content">
 
-    <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+    <h2>HEMEN KULLANMAYA BAŞLAYIN</h2>
 
     <!-- Newsletter Form -->
     <form id="n_letter" class="row" role="form" method="post" name="newsletter" action="newsletter.php">
-      <div class="col-lg-4">
-        <!--[if lt IE 10]>
-        <div class="ie-placeholder n-name">Name</div>
-        <![endif]-->
-        <input id="n_name" name="name" type="text" placeholder="Name"/>
-
-        <div id='n_name_error' class="error">Name missing</div>
-      </div>
-      <div class="col-lg-5">
-        <!--[if lt IE 10]>
-        <div class="ie-placeholder n-email">Email Address</div>
-        <![endif]-->
-        <input id="n_email" name="email" type="text" placeholder="Email Address"/>
-
-        <div id='n_email_error' class="error">Email Address Missing</div>
-      </div>
-      <div class="col-lg-3">
-        <input id="subscribe_button" class="btn" type="submit" name="submit" value="NOTIFY ME">
-
-        <div id='n_success' class="success">YOU HAVE SUBSCRIBED SUCCESSFULLY</div>
-        <div id='n_fail' class="error">THIS EMAIL HAS ALREADY SUBSCRIBED!</div>
+      <div class="col-lg-12">
+        <%= link_to "<i class='icon-foursquare'> Foursquare ile giriş yap </i>".html_safe, foursquare_callback_path, :class => "btn btn-primary btn-lg " %>
       </div>
     </form>
     <!-- End Newsletter Form -->
@@ -111,35 +108,34 @@
 <section id="features">
   <div class="container content">
 
-    <h2>Features</h2>
+    <h2>ÖZELLİKLER</h2>
 
     <div class="row">
       <div class="col-sm-6 col-lg-3 item">
-        <i class="icon-location-arrow"></i>
+        <i class="icon-foursquare"></i>
 
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in
-          magni animi pariatur sed.
+        <p> Foursquare hesabınızla hemen bağlanırsınız ve anında istediğiniz yerde check-in yapabilirsiniz .
         </p>
       </div>
       <div class="col-sm-6 col-lg-3 item">
-        <i class="icon-inbox"></i>
+        <i class="icon-map-marker"></i>
 
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in
-          magni animi pariatur sed.
+        <p> Nerede olursanız olun CheckinTimer ile istediğiniz konumda check-in yapabilir, bu konumlar için bir pgoram
+          oluşturabilirsiniz.
         </p>
       </div>
       <div class="col-sm-6 col-lg-3 item">
-        <i class="icon-fire"></i>
+        <i class="icon-time"></i>
 
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in
-          magni animi pariatur sed.
+        <p> Check-in programları sayesinde haftanın hergünü, istediğiniz saatte belirlediğiniz konumda check-in
+          yaparsınız.
         </p>
       </div>
       <div class="col-sm-6 col-lg-3 item">
         <i class="icon-laptop"></i>
 
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in
-          magni animi pariatur sed.
+        <p> Check-in yapmak için artık telefonunuza ihtiyacınız yok, bilgisayarınızı kullanarak check-in yapmanın
+          zevkini yaşayın. Üstelik ücretsiz !
         </p>
       </div>
     </div>
@@ -152,72 +148,32 @@
 <section id="social">
   <div class="container content">
 
-    <h2>CONNECT WITH US</h2>
+    <h2>BİZİ TAKİP EDİN</h2>
 
     <!-- Social Icons -->
     <ul class="social-icon-container">
+
       <li>
-        <a href="http://facebook.com/" target="_blank">
+        <a href="https://foursquare.com/user/72639762" target="_blank">
+          <img src="/assets/social-icons/foursquare.png" alt=""/>
+        </a>
+      </li>
+      <li>
+        <a href="http://facebook.com/checkin.timer" target="_blank">
           <img src="/assets/social-icons/facebook.png" alt=""/>
         </a>
       </li>
       <li>
-        <a href="http://twitter.com/" target="_blank">
+        <a href="http://twitter.com/checkintimer" target="_blank">
           <img src="/assets/social-icons/twitter.png" alt=""/>
         </a>
       </li>
       <li>
-        <a href="http://youtube.com/" target="_blank">
-          <img src="/assets/social-icons/youtube.png" alt=""/>
+        <a href="http://www.linkedin.com/pub/yigitcan-bacakoglu/51/1a8/790" target="_blank">
+          <img src="/assets/social-icons/linkedin.png" alt=""/>
         </a>
       </li>
-      <li>
-        <a href="http://dribble.com/" target="_blank">
-          <img src="/assets/social-icons/dribbble.png" alt=""/>
-        </a>
-      </li>
-      <li>
-        <a href="http://vimeo.com/" target="_blank">
-          <img src="/assets/social-icons/vimeo.png" alt=""/>
-        </a>
-      </li>
-      <li>
-        <a href="#" target="_blank">
-          <img src="/assets/social-icons/google+.png" alt=""/>
-        </a>
-      </li>
-      <!--
-                          <li>
-                              <a href="http://vimeo.com/" target="_blank">
-                                  <img src="/assets/social-icons/digg.png" alt="" />
-                              </a>
-                          </li>
-                          <li>
-                              <a href="#" target="_blank">
-                                  <img src="/assets/social-icons/Evernote.png" alt="" />
-                              </a>
-                          </li>
-                          <li>
-                              <a href="#" target="_blank">
-                                  <img src="/assets/social-icons/stumbleupon.png" alt="" />
-                              </a>
-                          </li>
-                          <li>
-                              <a href="#" target="_blank">
-                                  <img src="/assets/social-icons/rss.png" alt="" />
-                              </a>
-                          </li>
-                          <li>
-                              <a href="#" target="_blank">
-                                  <img src="/assets/social-icons/linkedin.png" alt="" />
-                              </a>
-                          </li>
-                          <li>
-                              <a href="#" target="_blank">
-                                  <img src="/assets/social-icons/pintrest.png" alt="" />
-                              </a>
-                          </li>
-      -->
+
 
     </ul>
     <!-- End Social Icons -->
@@ -234,29 +190,59 @@
     <input id="view-map" type="checkbox" class="view-map-selector">
 
     <div id="view-address-btn">
-      <label for="view-map" class="btn">VIEW ADDRESS</label>
+      <label for="view-map" class="btn">Adresi Göster</label>
     </div>
 
     <div id="locate-overlay">
       <div class="div-1">
         <div>
-          <h2>Locate Us</h2>
+          <h2>BİZ NEREDEYİZ?</h2>
 
           <p>
-            Studio 103<br>
-            The Business Centre<br>
-            61 Wellfield Road<br>
-            Roath<br>
-            Cardiff<br>
-            CF24 3DG
+            Bagdat Cad.<br>
+            Suadiye<br>
+            Istanbul, Türkiye<br>
           </p>
         </div>
         <div>
-          <label for="view-map" class="btn">VIEW MAP</label>
+          <label for="view-map" class="btn">HARİTA</label>
         </div>
       </div>
     </div>
 
+  </div>
+</section>
+
+<section id="social" style="padding:20;">
+  <div class="container content">
+    <section id="social" style="padding: 0;">
+      <div class="container content">
+        <!-- Social Icons -->
+        <ul class="social-icon-container">
+          CheckinTimer - Tüm Hakları Saklıdır &copy; <%= Date.today.year %>     <a href="mailto:support@checkintimer.com">support@checkintimer.com</a>
+          <!--<li>-->
+          <!--<a href="https://foursquare.com/user/72639762" target="_blank">-->
+          <!--jkö            </a>-->
+          <!--</li>-->
+          <!--<li>-->
+          <!--<a href="http://facebook.com/checkin.timer" target="_blank">-->
+          <!--jk            </a>-->
+          <!--</li>-->
+          <!--<li>-->
+          <!--<a href="http://twitter.com/checkintimer" target="_blank">-->
+          <!--lö            </a>-->
+          <!--</li>-->
+          <!--<li>-->
+          <!--<a href="http://www.linkedin.com/pub/yigitcan-bacakoglu/51/1a8/790" target="_blank">-->
+          <!--ll            </a>-->
+          <!--</li>-->
+
+
+        </ul>
+        <!-- End Social Icons -->
+
+      </div>
+    </section>
   </div>
 </section>
 <!-- End Locate Section -->

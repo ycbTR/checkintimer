@@ -5,7 +5,7 @@ class Dashboard::BaseController < ApplicationController
   before_filter :authenticate_user!
 
   def index
-
+            redirect_to dashboard_checkins_path
   end
 
   def leaderboard
