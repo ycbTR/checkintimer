@@ -1,6 +1,6 @@
 <div class="form-group">
   <label>Mekan</label>
-  <%= f.select :venue_id, options_for_select(current_user.venues_for_select, params[:venue_id]), {}, :class => "form-control venue-select" %>
+  <%= f.select :venue_id, options_for_select(current_user.venues_for_select), {}, :class => "form-control venue-select" %>
   <%= f.hidden_field :venue_name %>
 </div>
 
