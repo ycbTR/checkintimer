@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" hash="3528134119">
-    <data-source source="LOCAL" name="Rails checkintimer: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="a6b50d82-8977-4eea-9875-f5110a3ccd86">
+    <data-source source="LOCAL" name="Rails checkintimer: development" uuid="a6b50d82-8977-4eea-9875-f5110a3ccd86">
+      <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails checkintimer: test" uuid="6ba8de4e-bece-40a3-8025-5be8027bba39">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>
