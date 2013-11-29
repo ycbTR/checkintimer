@@ -36,6 +36,9 @@ gem "typhoeus"
 gem "quimby"
 gem "clockwork"
 gem "state_machine"
+gem "airbrake"
+gem 'newrelic_rpm'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

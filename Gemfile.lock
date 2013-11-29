@@ -28,6 +28,9 @@ GEM
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
+    airbrake (3.1.14)
+      builder
+      json
     arel (3.0.3)
     atomic (1.1.14)
     bcrypt-ruby (3.1.2)
@@ -95,6 +98,7 @@ GEM
     multi_json (1.8.2)
     multipart-post (1.2.0)
     nested_form (0.3.2)
+    newrelic_rpm (3.5.7.59)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     orm_adapter (0.5.0)
@@ -180,6 +184,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  airbrake
   clockwork
   coffee-rails (~> 3.2.1)
   delayed_job_active_record
@@ -187,6 +192,7 @@ DEPENDENCIES
   foursquare2
   jquery-rails
   json
+  newrelic_rpm
   pg
   quimby
   rails (= 3.2.13)
