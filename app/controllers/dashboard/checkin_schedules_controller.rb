@@ -4,7 +4,7 @@ class Dashboard::CheckinSchedulesController < Dashboard::BaseController
   # GET /checkin_schedules
   # GET /checkin_schedules.json
   def index
-    @checkin_schedules = CheckinSchedule.all
+    @checkin_schedules = current_user.checkin_schedules.all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -15,7 +15,7 @@ class Dashboard::CheckinSchedulesController < Dashboard::BaseController
   # GET /checkin_schedules/1
   # GET /checkin_schedules/1.json
   def show
-    @checkin_schedule = CheckinSchedule.find(params[:id])
+    @checkin_schedule = current_user.checkin_schedules.where(id: params[:id]).first
 
     respond_to do |format|
       format.html # show.html.erb
