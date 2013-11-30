@@ -1,0 +1,125 @@
+<div class="SandboxScopeClass ExternalClass" id="mpf0_MsgContainer">
+  <title>Foursquare Otomatik Check-In | Checkin Timer</title>
+  <style>
+      @media only screen and (max-device-width: 720px) {
+          .ExternalClass *[class="ecxfullWidthNoMarginOnMobile"] {
+              width: 320px !important;
+          }
+
+          .ExternalClass *[class="ecxfullWidthOnMobile"] {
+              width: 320px !important;
+          }
+
+          .ExternalClass *[class="ecxhiddenOnMobile"] {
+              display: none !important;
+          }
+
+          .ExternalClass *[class="ecxtransparentOnMobile"] {
+              background: transparent !important;
+          }
+      }
+
+      .ExternalClass body, .ExternalClass table {
+          border: 0;
+          border-collapse: collapse;
+          border-spacing: 0;
+          padding: 0;
+      }
+
+      .ExternalClass div, .ExternalClass p, .ExternalClass a, .ExternalClass li, .ExternalClass td {
+      }
+
+      .ExternalClass a {
+          color: #2398c9 !important;
+          text-decoration: none;
+      }
+
+      .ExternalClass .ecxlightText a {
+          color: #999999;
+      }
+  </style>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr>
+      <td class="ecxhiddenOnMobile" valign="bottom" style="">
+        <table height="134" width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+          <tr>
+            <td height="134" style="">&nbsp;</td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+      <td class="ecxfullWidthOnMobile" style="width:640px;">
+        <table class="ecxfullWidthNoMarginOnMobile" cellpadding="0" cellspacing="0" style="background:#fff;width:640px;">
+          <tbody>
+          <tr>
+            <td height="41" valign="middle" bgcolor="#4eafdf" style="background-repeat:repeat-x;padding:0;">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                <tr>
+                  <td class="ecxtransparentOnMobile" width="20" height="41" valign="middle" bgcolor="#4eafdf" style="">&nbsp;</td>
+                  <td width="144" height="41" valign="middle" style='color:white;'>
+                    <strong>Checkin Timer</strong>
+                  </td>
+                  <td height="41" align="right" valign="middle" style="font:bold 13px 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#ffffff;">&nbsp;</td>
+                  <td class="ecxtransparentOnMobile" width="20" height="41" valign="middle" bgcolor="#4eafdf" style="">&nbsp;</td>
+                </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table align="left" class="ecxfullWidthOnMobile" width="466" cellpadding="0" cellspacing="0" style="color:#4d4d4d;font:13px/18px 'Helvetica Neue', Helvetica, sans-serif;">
+                <tbody>
+                <tr>
+                  <td style="padding:20px 20px 0 20px;"><p>Selam <%= @user.firstname %>,</p>
+
+                    <p>Az önce CheckinTimer ile, <strong><%= @checkin_schedule.venue_name %></strong> konumunda otomatik check-in
+                      yaptın.</p></td>
+                </tr>
+                </tbody>
+              </table>
+              <table align="left" class="ecxfullWidthOnMobile" width="170" cellpadding="0" cellspacing="0" style="color:#4d4d4d;font:13px/18px 'Helvetica Neue', Helvetica, sans-serif;">
+                <tbody>
+                <tr>
+                  <td style="padding:20px;">
+                    <%= image_tag attachments['logo.png'].url, height: 128, width: 128 -%>
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table align="left" width="100%" cellpadding="0" cellspacing="0" style="color:#4d4d4d;font:13px/18px 'Helvetica Neue', Helvetica, sans-serif;">
+                <tbody>
+                <tr>
+                  <td style="padding:20px 20px 20px 20px;">
+                    <p>CheckinTimer servisini kullandığınız için teşekkür ederiz.</p>
+
+                    <p>Sorularınız için support@checkintimer.com</p></td>
+                </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+      <td class="ecxhiddenOnMobile" valign="bottom" style="">
+        <table height="134" width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+          <tr>
+            <td height="134" style="">&nbsp;</td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+</div>

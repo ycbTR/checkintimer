@@ -48,9 +48,12 @@ class CheckinSchedule < ActiveRecord::Base
       next if !qc.can_checkin? || !user.can_checkin?
       puts "Starting performing #{qc.to_yaml}"
       begin
-        qc.user.add_checkin(qc)
+        if qc.user.add_checkin(qc)
           puts "Added checkin"
+          after_checkin_performed(qc)
+        end
       rescue
+        after_checkin_failed(qc)
         #TODO Airbrake.notify
         next
       end
@@ -61,6 +64,13 @@ class CheckinSchedule < ActiveRecord::Base
     true
   end
 
+  def after_checkin_performed(cs)
+    UserMailer.auto_checkin_performed(cs).deliver rescue ""
+  end
+
+  def after_checkin_failed(cs)
+    UserMailer.auto_checkin_failed(cs).deliver rescue ""
+  end
 
   def broadcast
     _broadcast = []
