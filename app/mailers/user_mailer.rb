@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default :from => "support@checkintimer.com"
+  default :from => "CheckinTimer.com <support@checkintimer.com>"
 
   def auto_checkin_performed(checkin_schedule)
     attachments.inline['logo.png'] = File.read("#{Rails.root}/app/assets/images/logo.png")
