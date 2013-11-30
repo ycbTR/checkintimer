@@ -64,11 +64,11 @@ class CheckinSchedule < ActiveRecord::Base
     true
   end
 
-  def after_checkin_performed(cs)
+  def self.after_checkin_performed(cs)
     UserMailer.auto_checkin_performed(cs).deliver rescue ""
   end
 
-  def after_checkin_failed(cs)
+  def self.after_checkin_failed(cs)
     UserMailer.auto_checkin_failed(cs).deliver rescue ""
   end
 
