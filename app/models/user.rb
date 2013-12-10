@@ -23,12 +23,14 @@ class User < ActiveRecord::Base
 
   def add_checkin(checkin_schedule)
     begin
-      response = self.client.add_checkin(:venueId => checkin_schedule.venue_id,
-                                         :broadcast => checkin_schedule.broadcast,
-                                         :shout => checkin_schedule.shout,
-                                         :ll => "#{checkin_schedule.lat},#{checkin_schedule.long}",
-                                         :llAcc => rand(1..5)
-      )
+      hash = {:venueId => checkin_schedule.venue_id,
+              :broadcast => checkin_schedule.broadcast,
+              :shout => checkin_schedule.shou}
+      if checkin_schedule.lat && checkin_schedule.long
+        hash.merge! :ll => "#{checkin_schedule.lat},#{checkin_schedule.long}", :llAcc => rand(1..5)
+      end
+      response = self.client.add_checkin(hash)
+
       self.checkins.create(:venue_id => checkin_schedule.venue_id,
                            :venue_name => response.venue.name,
                            :broadcast => checkin_schedule.broadcast, :shout => checkin_schedule.shout,

@@ -12,7 +12,7 @@ class Dashboard::CheckinController < Dashboard::BaseController
       insta_checkin = OpenStruct.new(:venue_id => params[:venue_id], :broadcast => broadcast, :shout => params[:shout])
       if params[:venue_id]
         begin
-          venue = @@client.venue(venue_id)
+          venue = @@client.venue(params[:venue_id])
           insta_checkin.lat = venue.location.lat
           insta_checkin.long = venue.location.lng
         rescue
