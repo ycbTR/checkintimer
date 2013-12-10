@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131129201508) do
+ActiveRecord::Schema.define(:version => 20131210181758) do
 
   create_table "authentications", :force => true do |t|
     t.string   "uid"
@@ -44,6 +44,8 @@ ActiveRecord::Schema.define(:version => 20131129201508) do
     t.boolean  "friday"
     t.boolean  "saturday"
     t.boolean  "sunday"
+    t.string   "lat"
+    t.string   "long"
   end
 
   create_table "checkins", :force => true do |t|

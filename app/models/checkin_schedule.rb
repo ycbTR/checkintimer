@@ -5,6 +5,7 @@ class CheckinSchedule < ActiveRecord::Base
                   :venue_id, :lat, :long, :venue_name, :state
   belongs_to :user
   has_many :checkins
+  before_save :set_location
 
   state_machine :initial => "scheduled" do
     event :pause do
@@ -79,5 +80,16 @@ class CheckinSchedule < ActiveRecord::Base
     _broadcast << "private" if private
     _broadcast << "public" if !private
     _broadcast.join(',')
+  end
+
+  def set_location
+    if self.venue_id
+      begin
+        venue = @@client.venue(venue_id)
+        self.lat = venue.location.lat
+        self.long = venue.location.long
+      rescue
+      end
+    end
   end
 end

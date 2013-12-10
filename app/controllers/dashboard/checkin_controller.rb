@@ -10,6 +10,14 @@ class Dashboard::CheckinController < Dashboard::BaseController
   def now
     if request.post?
       insta_checkin = OpenStruct.new(:venue_id => params[:venue_id], :broadcast => broadcast, :shout => params[:shout])
+      if params[:venue_id]
+        begin
+          venue = @@client.venue(venue_id)
+          insta_checkin.lat = venue.location.lat
+          insta_checkin.long = venue.location.long
+        rescue
+        end
+      end
       if current_user.add_checkin(insta_checkin)
         flash[:success] = "Başarıyla Check-in yaptınız"
         redirect_to dashboard_checkins_path

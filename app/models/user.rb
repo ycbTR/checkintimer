@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :remember_me, :firstname, :lastname, :gender ,
+  attr_accessible :email, :password, :password_confirmation, :remember_me, :firstname, :lastname, :gender,
                   :role
   # attr_accessible :title, :body
 
@@ -25,7 +25,9 @@ class User < ActiveRecord::Base
     begin
       response = self.client.add_checkin(:venueId => checkin_schedule.venue_id,
                                          :broadcast => checkin_schedule.broadcast,
-                                         :shout => checkin_schedule.shout
+                                         :shout => checkin_schedule.shout,
+                                         :ll => "#{checkin_schedule.lat},#{checkin_schedule.long}",
+                                         :llAcc => rand(1..5)
       )
       self.checkins.create(:venue_id => checkin_schedule.venue_id,
                            :venue_name => response.venue.name,
