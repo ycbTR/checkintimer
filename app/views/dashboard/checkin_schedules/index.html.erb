@@ -52,7 +52,7 @@
               <% end %>
               |
               <%= link_to "<i class='icon-pencil'></i>".html_safe, edit_dashboard_checkin_schedule_path(schedule), :class => "btn btn-default btn-xs" %>
-              <%= link_to "<i class='icon-trash'></i>".html_safe, dashboard_checkin_schedule_path(schedule), :class => "btn btn-danger btn-xs", :method => :delete, :confirm => "Emin misiniz?" %>
+              <%= link_to "<i class='icon-trash'></i>".html_safe, dashboard_checkin_schedule_path(schedule, :authenticity_token => form_authenticity_token), :class => "btn btn-danger btn-xs", :method => :delete, :confirm => "Emin misiniz?" %>
 
             </td>
           </tr>

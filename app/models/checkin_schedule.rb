@@ -42,7 +42,7 @@ class CheckinSchedule < ActiveRecord::Base
     _time = Time.now.in_time_zone("Turkey")
     puts "Starting perform #{_time}"
     time = Time.new("2000", "01", "01", _time.hour, _time.min, _time.sec)
-    queued_checkins = CheckinSchedule.where("time > ? AND time <= ?", (time - 1.minute).to_s(:db), time.to_s(:db)).where("#{Time.now.strftime('%A').downcase}".to_sym => true)
+    queued_checkins = CheckinSchedule.where(state: "scheduled").where("time > ? AND time <= ?", (time - 1.minute).to_s(:db), time.to_s(:db)).where("#{Time.now.strftime('%A').downcase}".to_sym => true)
     queued_checkins.each do |qc|
       user = qc.user
       next if !qc.can_checkin? || !user.can_checkin?
