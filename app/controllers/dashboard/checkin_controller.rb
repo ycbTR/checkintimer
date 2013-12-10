@@ -14,7 +14,7 @@ class Dashboard::CheckinController < Dashboard::BaseController
         begin
           venue = @@client.venue(venue_id)
           insta_checkin.lat = venue.location.lat
-          insta_checkin.long = venue.location.long
+          insta_checkin.long = venue.location.lng
         rescue
         end
       end

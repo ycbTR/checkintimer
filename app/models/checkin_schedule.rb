@@ -87,7 +87,7 @@ class CheckinSchedule < ActiveRecord::Base
       begin
         venue = @@client.venue(venue_id)
         self.lat = venue.location.lat
-        self.long = venue.location.long
+        self.long = venue.location.lng
       rescue
       end
     end
