@@ -25,7 +25,7 @@ class User < ActiveRecord::Base
     begin
       hash = {:venueId => checkin_schedule.venue_id,
               :broadcast => checkin_schedule.broadcast,
-              :shout => checkin_schedule.shou}
+              :shout => checkin_schedule.shout}
       if checkin_schedule.lat && checkin_schedule.long
         hash.merge! :ll => "#{checkin_schedule.lat},#{checkin_schedule.long}", :llAcc => rand(1..5)
       end
