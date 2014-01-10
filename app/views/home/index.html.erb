@@ -37,7 +37,7 @@
     <h1 id="main-text">OTOMATİK FOURSQUARE CHECK-IN</h1>
 
     <h3 id="second-text">Mayor olmak artık daha kolay !</h3>
-    <% count = Checkin.count
+    <% count = Checkin.count.to_i + 1200
        count = count.to_s.rjust(10, "0").split("")
     %>
     <!-- Countdown start -->
