@@ -4,4 +4,10 @@ class HomeController < ApplicationController
   def index
 
   end
+  
+  def ping
+    ::CheckinSchedule.perform
+    render :text => "ok"
+  end
+  
 end
