@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a629ea7e-a7c2-41d6-bb01-06061798ae2c" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/foursquare.rb" afterPath="$PROJECT_DIR$/config/initializers/foursquare.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="checkintimer.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386787470485" ignored="false" />
+    <file path="/Dummy.txt" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1391208527500" ignored="false" />
     <file path="/user.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386787693671" ignored="false" />
     <file path="/rails_admin.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385756310532" ignored="false" />
-    <file path="/index.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386698914292" ignored="false" />
+    <file path="/index.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386802018774" ignored="false" />
     <file path="/application.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385760344078" ignored="false" />
     <file path="$PROJECT_DIR$/../sh/spree_core/lib/spree/core/jobs/daily_pricing/setup.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385759547494" ignored="false" />
     <file path="$PROJECT_DIR$/../sh/spree_core/app/models/spree/order.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1385759547494" ignored="false" />
@@ -36,7 +36,18 @@
     <file path="/application.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386699245019" ignored="false" />
     <file path="/checkin_controller.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386699699036" ignored="false" />
     <file path="/20131210182219_add_lat_long_to_existing_data.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386699752347" ignored="false" />
-    <file path="/fragment.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386700326870" ignored="false" />
+    <file path="/fragment.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386803833840" ignored="false" />
+    <file path="$PROJECT_DIR$/../instakolik/app/views/home/index.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386965649123" ignored="false" />
+    <file path="/a.dummy" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386800966499" ignored="false" />
+    <file path="$PROJECT_DIR$/../instakolik/app/assets/stylesheets/style.css" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386965649123" ignored="false" />
+    <file path="/style.css" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386881915664" ignored="false" />
+    <file path="$PROJECT_DIR$/../instakolik/app/controllers/home_controller.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386802591330" ignored="false" />
+    <file path="/home_controller.rb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386801149895" ignored="false" />
+    <file path="$PROJECT_DIR$/../instakolik/app/views/insta/details.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386965647748" ignored="false" />
+    <file path="$PROJECT_DIR$/../instakolik/app/views/layouts/application.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386965649123" ignored="false" />
+    <file path="/details.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386803676384" ignored="false" />
+    <file path="$PROJECT_DIR$/../instakolik/app/views/posts/index.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386965649123" ignored="false" />
+    <file path="$PROJECT_DIR$/../instakolik/app/views/posts/show.html.erb" changelist="a629ea7e-a7c2-41d6-bb01-06061798ae2c" time="1386965649123" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,28 +70,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="checkin_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/checkin_controller.rb">
+      <file leaf-file-name="venuegroups.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/foursquare2-1.9.8/lib/foursquare2/venuegroups.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <file leaf-file-name="client.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/foursquare2-1.9.8/lib/foursquare2/client.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="31" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.4827586">
+            <state line="44" column="57" selection-start="1788" selection-end="1811" vertical-scroll-proportion="-11.692307">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkin_schedule.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/checkin_schedule.rb">
+      <file leaf-file-name="foursquare.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/initializers/foursquare.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="24" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0">
+            <state line="8" column="162" selection-start="728" selection-end="728" vertical-scroll-proportion="0.13544019">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foursquare2.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/foursquare2-1.9.8/lib/foursquare2.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="22" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,11 +135,11 @@
         <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/foursquare.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131210182219_add_lat_long_to_existing_data.rb" />
         <option value="$PROJECT_DIR$/app/models/checkin_schedule.rb" />
         <option value="$PROJECT_DIR$/app/controllers/dashboard/checkin_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/foursquare.rb" />
       </list>
     </option>
   </component>
@@ -132,7 +152,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1680" />
+    <option name="width" value="1916" />
     <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -157,7 +177,7 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
     </navigator>
     <panes>
@@ -169,6 +189,50 @@
               <option name="myItemId" value="checkintimer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkintimer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foursquare2 (v1.9.8, RVM: ruby-1.9.3-p448) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkintimer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foursquare2 (v1.9.8, RVM: ruby-1.9.3-p448) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foursquare2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -190,7 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -204,11 +268,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -221,12 +285,12 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -411,14 +475,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
+    <frame x="0" y="22" width="1916" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19951041" sideWeight="0.600863" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20641711" sideWeight="0.600863" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -502,28 +566,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/checkin_schedule.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="0" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.3327032" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard/checkin_schedules/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="154" selection-start="2169" selection-end="2169" vertical-scroll-proportion="-7.0" />
+        <state line="51" column="24" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.15349887" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
@@ -533,71 +578,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="10" column="46" selection-start="292" selection-end="292" vertical-scroll-proportion="0.16685206" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/callback_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1434" selection-end="2124" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/foursquare.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
+        <state line="4" column="48" selection-start="151" selection-end="242" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/foursquare2-1.9.8/lib/foursquare2/checkins.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/auto_checkin_failed.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="36" selection-start="1578" selection-end="1583" vertical-scroll-proportion="0.20342612">
+        <state line="19" column="181" selection-start="667" selection-end="667" vertical-scroll-proportion="-11.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/checkin.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131210182219_add_lat_long_to_existing_data.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131128183748_create_checkin_schedules.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="67" selection-start="294" selection-end="294" vertical-scroll-proportion="0.25519848">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/dashboard/checkin_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/checkin_schedule.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="24" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0">
+        <state line="32" column="12" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="31" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.4827586">
+        <state line="67" column="44" selection-start="2088" selection-end="2088" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/foursquare2-1.9.8/lib/foursquare2/users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="8" selection-start="5867" selection-end="5867" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/foursquare2-1.9.8/lib/foursquare2/tips.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/foursquare2-1.9.8/lib/foursquare2/venues.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="295" column="40" selection-start="12335" selection-end="12335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/foursquare2-1.9.8/lib/foursquare2/campaigns.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_specification.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="8" selection-start="3060" selection-end="3060" vertical-scroll-proportion="0.33259177">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/foursquare2-1.9.8/lib/foursquare2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/foursquare2-1.9.8/lib/foursquare2/venuegroups.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/foursquare2-1.9.8/lib/foursquare2/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="57" selection-start="1788" selection-end="1811" vertical-scroll-proportion="-11.692307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/foursquare.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="162" selection-start="728" selection-end="728" vertical-scroll-proportion="0.13544019">
           <folding />
         </state>
       </provider>
